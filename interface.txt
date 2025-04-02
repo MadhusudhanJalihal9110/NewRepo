@@ -1,0 +1,70 @@
+interface consists of abstract methods 
+
+whatever methods we create inside interface it will be always
+
+public abstract even though we did not add abstract keyword explicitly
+
+A method without implementation is reffered as astract method
+
+The variable declared inside interface will be always public static final
+
+final means once the value is assigned to the variable it cannot be changed
+
+interface cannot have non static and non final variables that is the reason
+
+we can able to achieve 100 percent abstraction using interface.
+
+we cannot instantiate (create object reference) interface.
+
+interface sum <interface name>
+{
+
+int value = 100; (public static final int value = 100) //variable inside interface
+
+public void add(); (public abstract void add()) // it is just a method declaration without implementation
+
+}
+
+interface add
+{
+
+public void add();
+
+}
+
+public class CalculateSum implements sum,add (multiple inheritence)
+{
+
+@Override
+public void add()
+{
+  System.out.println("The sum of two numbers are: " (50+100));
+
+}
+
+public void display()
+{
+
+   System.out.println("Inside calculate sum");
+
+}
+
+public static void main(String args[])
+{
+
+  CalculateSum s = new CalculateSum();
+
+   s.value = 200;
+
+   //Sum sum = new Sum(); this is not allowed.
+
+ Sum sum = new CalculateSum(); //using interface reference we can able to point to a class
+                               which has implemented the interface.
+
+ sum.add(); //only the overriden methods which belongs to sum interface can be invoked.
+
+sum.display(); // this is not allowed
+
+}
+
+}

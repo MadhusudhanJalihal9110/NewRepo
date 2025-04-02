@@ -1,0 +1,100 @@
+  types of user defined function
+===========================================
+  1) function with return type and with arguments
+
+  2) function without return type and without arguments
+
+  3) function with return type and without arguments
+
+  4) function without return type and with arguments
+
+
+===============================================================
+
+Function to calculate the sum of three given numbers 10,30,40 and return the value
+
+<AccessModifiers - private,public,protected,default> <Synchronized | Non synchronized> <static | non static> <return type> <funtion name> (arguments1,arguments2.......argumentsn)
+ 
+Function may return a value and may not return a value.
+
+void --> it doesnt return any value
+
+Function with argument and with return type
+
+public synchronized static int sumOfThreeNumbers(int a,int b,int c)
+{
+   int result = a+b+c;
+   return result;// return statement should be the last statement in ur program
+  //if we try to add any statements after return statement it will become unreachable code 
+}
+
+public synchronized static int sumOfThreeNumbers(int a,int b,int c)
+{ 
+   return (a+b+c);
+}
+
+
+======================================================================
+//When we perform division it gives quotient and remainder
+
+Function without return type and with arguments
+
+public void computeModuloDivsion(int a, int b)
+{
+    int c = a % b; // it returns remainder 12  % 24 --> Numerator is less than denominator it returns numerator itself
+    System.out.println("The remainder is: " + c);
+}
+
+the function gets executed only when we invoke it.
+
+
+computeModuloDivsion(125,10); //invoking a function
+
+==================================================================
+Function with return type and without arguments
+
+public int computeDivision()
+{
+  return (100 / 10); // normal division will return quotient 2 / 10 --> Numerator is less than denominator it will    return zero
+}
+
+System.out.println(computeDivision());
+
+int c = computeDivision();
+
+======================================================================
+
+function without return type and with arguments
+
+ public void display(String s)
+ {
+    System.out.println(s); //printing the value of s in the console
+ }
+
+============================================================================
+
+ display("welcome to java programming"); //it prints welcome to java programming
+
+=====================================================================================
+
+ public class Employee
+{
+  int empId;
+
+  String empName;
+
+  String designation;
+
+}
+
+ public static Employee getEmployeeObject()
+ {
+     return new Employee();
+  }
+======================================================================================
+
+
+
+
+
+

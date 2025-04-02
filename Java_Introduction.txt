@@ -1,0 +1,163 @@
+JDK and JRE
+
+JDK --> Java Development Kit --> Compiler and JRE(Java Runtime Environment which consists of Java virtual machine)
+
+Java Compiler --> It converts the source code (.java file) into .class file which contains the byte code.
+
+Java Virtual Machine(JVM) --> It converts the byte code which is present in .class to machine understandable code.
+
+Class Loader --> It will load all the class which is imported in our program.
+
+Language Fundementals
+=============================
+1) variables and types of variables
+
+  1) what is the use of vriables
+
+  2) how to create a varible
+
+  3) local variable, instance variable and static variable
+
+2) datatype and types of datatype
+
+   1) what is the use of data type
+   2) types of data type --> int, short, byte, long, float, double, char,boolean (Primitive datatypes)
+   3) String --> It a wrapper class
+
+3) function 
+
+ 1) Why function is required (Inbuilt function and user defined function)
+
+ 2) syntax to create a function
+
+ 3) different ways to create a function
+
+ 4) use of functions
+
+===========================================================================
+
+Varibles are basically used to store data in our program.
+
+ 122 --> Numeric value without decimal point --> int, byte, long, short
+ 345.60 --> numeric value with decimal point --> float, double --> 999.99999999999
+ 'a' --> storing only single character ---> char === 'a','1','*',')'
+ true,false --> storing either true or false --> boolean               primitive datatype
+=================================================================================
+ "welcome to java programming"--> Storing sequence of characters --> String --> Wrapper class
+
+======================================================================================
+
+ Rules to create variables
+=======================================
+
+Rules to Declare a Variable 
+A variable name can consist of Capital letters A-Z, lowercase letters a-z digits 0-9, and two special characters such as _ underscore and $ dollar sign.
+The first character must not be a digit.
+Blank spaces cannot be used in variable names.
+Java keywords cannot be used as variable names.
+Variable names are case-sensitive.
+There is no limit on the length of a variable name but by convention, it should be between 4 to 15 chars.
+Variable names always should exist on the left-hand side of assignment operators.
+
+===============================================================
+   datatype -> it defines what kind of data a variable is allowed to store
+     = -> aasignment operator used to assign values to the variable
+  Rules to create a variable
+
+  int value_one = 0; //&^# other than underscore and dollar symbol remaining special characters are not allowed
+
+  int value$one = 0;
+
+  int 123hhh = 0; //not valid
+
+  int _a = 30; //valid
+
+  int $b = 80; //valid
+
+  int value one = 6; // not valid spaces are not allowed
+
+  float val = 56.07f;
+
+  double vl2 = 778.8888988d;
+ 
+  char c = '$';// '\u0000' --> default value
+
+  boolean b = false; it contains either true or false, default value is false
+
+  String s = "Welcome to java programming"; //String is a wrapper class
+
+
+  int value; //declared a variable without intialization
+
+  value = 40;
+
+  int y = 0;
+
+   y = 90;
+
+
+  Math.pow(2,3); //2*2*2 = 8; inbuilt function
+
+  sum of three numbers 10,20,30 //finding the sum of three numbers --> there is no inbuilt function available
+
+  types of user defined function
+===========================================
+  1) function with return type and with arguments
+
+  2) function without return type and without arguments
+
+  3) function with return type and without arguments
+
+  4) function without return type and with arguments
+
+===========================================================================================
+
+Daily Activities
+=====================
+
+Training 
+
+Coding --> Eclipse (Debugging code in eclipse)
+
+Testing --> Junit
+
+Daily Scurm meeting --> 7.30 p.m --> To understand what is the task u worked and any blockers
+
+Git --> Source Code Versioning (Code review)
+
+Jira --> It is tool is IT companies to keep track of software application development process
+
+Agile --> Software development methodlogy --> Sprint --> It is duration to complete a specific task
+                                              	Story Points --> Estimate to complete a specific task
+                                                Sprint 	Planning
+                                                Backlog refining
+                                                Sprint Review
+                                                Retro Meeting
+                                                spill over
+Database --> Oracle,mysql(Relational database management system)
+
+Mongodb --> Nosql database(store a json document)
+
+Milestone 1,2,3,4
+
+Assessment
+
+Coding assessment
+
+Face to Face technical discussion
+
+Technical aptitude
+
+cut off 55%
+
+===================================================================================================================
+
+
+
+
+
+
+
+
+
+

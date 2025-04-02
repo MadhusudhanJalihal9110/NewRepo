@@ -1,0 +1,117 @@
+Keywords --> It contains predefined meaning and it is used for special purpose in the program.
+             The predefined meaning cannot be changed and it cannot be used as a varaible name.
+=============
+				
+ 		  	
+DataTypes --> int,short,long,byte --> Define whole numbers without Decimal.
+              float,double -->  Define whole numbers with Decimal. 9999.99f 9999.999999d
+              char --> It is used to define single character enclosed within single quote. 'a' [A-Z,a-z,0-9,$,#,@,!]
+              boolean --> true,false
+
+branching statement --> if,else,switch,case --> Writing conditional statements.
+
+Looping statement --> for,while,do --> if i want execute set of statements repeatedly until some condition is satisfied
+
+Jumping statements --> break, continue
+
+access specifiers --> public,private,protected,default
+
+inheritence --> implements,extends,interface,abstract,super (Used to access parent class variables and methods)
+
+Exception handling --> try,catch,throws,throw, finally 
+
+static --> It used to make a variable and methods a class level
+
+this --> it used to represent instance variable and instance(non-static) methods.
+
+return --> return statements are used inside the function and it is the last statement which will
+           be executed by a function.
+
+void - > It is used at method level to specifiy that method does not return any value.
+
+class --> It is used to create a custom class in java
+
+instanceof --> it used to identify the class of a particular object reference
+
+transient --> It is used to prevent serialization of instance variable
+
+multithreading --> synchronized,volatile
+
+volatile int amount = 2000;
+
+package --> to create a new package in a class. In Order to organize our code and maintain a folder structure we use packages. This should be the first statement in our program.
+
+import --> it used to import a custom class or predfined class in a program.
+
+new --> It used to create an object reference of a class.
+
+final --> final class Employee ---> If it used to prevent inheritance
+          class Employee
+        {
+
+            public void getEmployeeDetails();
+
+            public final void getEmployeeSalaryDetails();
+
+
+          } --> If we use final keyword at method level then this method will not be inherited
+
+final keyword infront of a variable --> the value cannot be changed once it is intialized
+
+final int age;
+
+age = 30;  
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a=10, b=50,c=30;
+
+if( a > b && a > c)
+{
+
+ System.out.println(" a is greatest");
+
+}
+else if( b > a && b > c)
+{
+
+ System.out.println(" b is greatest");
+
+}
+else
+{
+ System.out.println(" c is greatest");
+
+}
+
+}
+
+}
+
+
